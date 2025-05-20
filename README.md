@@ -11,7 +11,8 @@ This document contains hand-crafted custom implementations of major JavaScript b
 Array.prototype.myMap = function(callback, thisArg) {
   let result = [];
   for (let i = 0; i < this.length; i++) {
-    result.push(callback.call(thisArg, this[i], i, this));
+    if (!(i in this)) continue;  // Skip holes in sparse arrays
+    result[i] = callback.call(thisArg, this[i], i, this);
   }
   return result;
 };
