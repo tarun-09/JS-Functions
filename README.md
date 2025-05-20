@@ -1,3 +1,122 @@
+
+# Exhaustive List of Popular Custom JavaScript Functions & Utilities
+
+## Array Methods (Custom implementations popular)
+- map
+- filter
+- reduce
+- forEach
+- find
+- findIndex
+- some
+- every
+- includes
+- indexOf
+- lastIndexOf
+- push
+- pop
+- shift
+- unshift
+- slice
+- splice
+- concat
+- flat
+- flatMap
+- reverse
+- sort
+- join
+- fill
+- copyWithin
+- entries
+- keys
+- values
+
+## String Methods (Custom implementations popular)
+- charAt
+- charCodeAt
+- concat
+- includes
+- endsWith
+- indexOf
+- lastIndexOf
+- match
+- repeat
+- replace
+- search
+- slice
+- split
+- startsWith
+- substr
+- substring
+- toLowerCase
+- toUpperCase
+- trim
+- trimStart / trimLeft
+- trimEnd / trimRight
+- padStart
+- padEnd
+- codePointAt
+
+## Object Methods / Utilities (Custom implementations popular)
+- Object.assign
+- Object.keys
+- Object.values
+- Object.entries
+- Object.freeze
+- Object.seal
+- Object.getOwnPropertyDescriptors
+- Object.create
+- Object.defineProperty
+- Object.defineProperties
+- Object.hasOwnProperty
+- Object.is
+- Object.isExtensible
+- Object.isFrozen
+- Object.isSealed
+- Object.preventExtensions
+
+## Promise Methods (Commonly custom implemented or polyfilled)
+- then
+- catch
+- finally
+- all
+- race
+- allSettled
+- any
+
+## Timing & Async Utilities
+- setTimeout / setInterval (timers)
+- sleep / delay (Promise-based pause)
+- debounce (limit function call rate)
+- throttle (limit function call rate)
+- once (run function only once)
+
+## Functional Programming Utilities
+- memoize (cache function results)
+- curry (transform function to unary functions)
+- compose / pipe (combine functions)
+
+
+## Data Manipulation Utilities
+- deepClone (deep copy of objects/arrays)
+- flattenArray (flatten nested arrays)
+- flattenObject (flatten nested objects)
+- unique (array deduplication)
+- mergeDeep (deep merge objects)
+
+## Event & Control Utilities
+- eventEmitter / pubSub (basic event system)
+- custom error handling wrappers (async/await error handling)
+
+## Others
+- clone (shallow clone)
+- isEqual (deep equality check)
+
+##
+
+_This is the exhaustive list of commonly custom-implemented JavaScript methods and utilities.  
+Next, we will explore the custom implementations of these methods one by one._
+
 # Custom Implementations of JavaScript Built-in Functions
 
 This document contains hand-crafted custom implementations of major JavaScript built-in functions, grouped by type. Each method includes a **function signature**, **code**, and a **detailed dry run explanation** to help you understand the internal logic step by step.
